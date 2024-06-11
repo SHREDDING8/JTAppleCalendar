@@ -278,7 +278,7 @@ extension JTACMonthView {
         return returnPaths
     }
     
-    func cellStateFromIndexPath(_ indexPath: IndexPath,
+    public func cellStateFromIndexPath(_ indexPath: IndexPath,
                                 withDateInfo info: (date: Date, owner: DateOwner)? = nil,
                                 cell: JTACDayCell? = nil,
                                 isSelected: Bool? = nil,
